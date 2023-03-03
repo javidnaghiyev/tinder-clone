@@ -1,0 +1,14 @@
+$lowKeyBorderColor: #eaeaea;
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    z-index: 100;
+    border-bottom: 1px solid $lowKeyBorderColor;
+    .tinderLogo{
+        object-fit: contain;
+        height: 40px;
+    }
+}
